@@ -1,0 +1,15 @@
+{
+	"appId": "com.example.app",
+	"appName": "moapp",
+	"webDir": "dist/myapp-webapp",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		}
+	}
+}

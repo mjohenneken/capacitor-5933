@@ -1,0 +1,49 @@
+{
+  "name": "moapp",
+  "version": "0.0.0",
+  "engines": {
+    "node": "^12.20.2 || ^14.15.5 || ^16.10.0"
+  },
+  "scripts": {
+    "start": "ng serve --configuration=default",
+    "build": "ng build",
+    "build-mobile-dev": "ng build --configuration=dev && npx cap sync",
+    "build-dev": "ng build --configuration=dev --delete-output-path=false"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "~13.3.9",
+    "@angular/compiler": "~13.3.9",
+    "@angular/core": "~13.3.9",
+    "@angular/platform-browser-dynamic": "~13.3.9",
+    "@angular/platform-browser": "~13.3.9",
+    "@angular/router": "~13.3.9",
+    "@awesome-cordova-plugins/core": "^5.43.0",
+    "@awesome-cordova-plugins/in-app-browser": "^5.43.0",
+    "@capacitor/android": "^3.6.0",
+    "@capacitor/angular": "^2.0.3",
+    "@capacitor/app": "^1.1.1",
+    "@capacitor/core": "^3.6.0",
+    "cordova-plugin-inappbrowser": "^5.0.0",
+    "rxjs": "^6.6.7",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^13.3.6",
+    "@angular-eslint/builder": "13.2.1",
+    "@angular-eslint/eslint-plugin": "13.2.1",
+    "@angular-eslint/eslint-plugin-template": "13.2.1",
+    "@angular-eslint/schematics": "13.2.1",
+    "@angular-eslint/template-parser": "13.2.1",
+    "@angular/cli": "~13.3.6",
+    "@angular/compiler-cli": "~13.3.9",
+    "@capacitor/cli": "latest",
+    "@types/node": "^12.20.52",
+    "@typescript-eslint/eslint-plugin": "5.17.0",
+    "@typescript-eslint/parser": "5.17.0",
+    "eslint": "^8.12.0",
+    "ts-node": "~8.3.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4"
+  }
+}
